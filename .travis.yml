@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+  - "lts/*"
+notifications:
+    slack: luomoelanatura:rUDuG2O1tiMwx6DAap7TyxDP
