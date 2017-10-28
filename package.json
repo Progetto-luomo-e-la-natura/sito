@@ -1,0 +1,23 @@
+{
+  "name": "progettoluomoelanatura",
+  "version": "1.0.0",
+  "description": "Sito per il nostro progetto scolastico",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progetto-luomo-e-la-natura/sito.git"
+  },
+  "author": "Il gruppo del progetto",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Progetto-luomo-e-la-natura/sito/issues"
+  },
+  "homepage": "https://github.com/Progetto-luomo-e-la-natura/sito#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
