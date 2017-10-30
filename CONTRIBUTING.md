@@ -6,7 +6,7 @@ npm install
 ```
 
 Verranno installati tutti i programmi necessari ad eseguire il server
-# ESEGUIRE IL SERVER:COSE DA SAPERE
+# Eseguire il server: cose da sapere
 
 Il server si esegue con il comando 
 ```shell
@@ -26,3 +26,4 @@ Potrai vedere lo stato attuale del sito
 * **Il file server.js** è scritto in JavaScript (con comandi specifici di Node.js e Express) ed è il file principale del server, se si va alla home dice di renderizzare il file [index.ejs](views/index.ejs), altrimenti renderizza [iniziamo.ejs](views/iniziamo.ejs), app.listen eccetera crea il server e lo mette in attesa
 * **I file .ejs nella cartella views** teroricamente sono scritti in EJS ma al momento sono semplici file HTML scritti con l'ausilio dei template di Bootstrap
 * **Nella cartella public** ci sono altri file che vengono utilizzati dalle pagine web (come l'albero che esce in alto a sinistra)
+ > Nella cartella home sono presenti altri file e nella cartella principale ci sono package.json e .travis.yml, package.jsono dice ad npm cosa serve per avviare il server e altri dati sul server e .travis.yml serve per fare in modo che se ci sono errori gravi il server non dovrebbe arrivare fino ad Heroku
