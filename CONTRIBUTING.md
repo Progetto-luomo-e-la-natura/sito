@@ -10,16 +10,8 @@ Verranno installati tutti i programmi necessari ad eseguire il server
 
 Il server si esegue con il comando 
 ```shell
-MONGODB_URI=<url mongodb> CLEARDB_DATABASE_URL=<url mysql> PORT=3000 npm start
+PORT=3000 npm start
 ```
-```shell
-<url mongodb>
-```
-e
-```shell
-<url mysql>
-```
-sono link che ti darò quando vuoi.
 Andando con il tuo browser a
 
 ```url
