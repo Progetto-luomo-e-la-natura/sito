@@ -4,10 +4,12 @@ app.use(express.static('public'));
 
 app.get('/',function(req,res) {
   res.render("index.ejs");
+  res.end();
 });
 
 app.get('/iniziamo',function(req,res) {
   res.render("iniziamo.ejs");
+  res.end();
 });
 
 app.listen(process.env.PORT, function () {
