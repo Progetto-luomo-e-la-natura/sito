@@ -12,6 +12,11 @@ app.get('/iniziamo',function(req,res) {
   res.end();
 });
 
+app.get('/interviste',function(req,res) {
+  res.render("interviste.ejs");
+  res.end();
+});
+
 app.listen(process.env.PORT, function () {
   console.log('Server avviato sulla porta '+process.env.PORT);
 });
