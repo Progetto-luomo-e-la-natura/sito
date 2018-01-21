@@ -7,8 +7,8 @@ app.get('/',function(req,res) {
   res.end();
 });
 
-app.get('/iniziamo',function(req,res) {
-  res.render("iniziamo.ejs");
+app.get('/temi',function(req,res) {
+  res.render("temi.ejs");
   res.end();
 });
 
@@ -16,7 +16,7 @@ app.get('/interviste',function(req,res) {
   res.render("interviste.ejs");
   res.end();
 });
-
-app.listen(process.env.PORT, function () {
-  console.log('Server avviato sulla porta '+process.env.PORT);
+let port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log('Server avviato sulla porta '+port);
 });
