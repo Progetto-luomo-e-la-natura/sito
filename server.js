@@ -7,8 +7,8 @@ app.get('/',function(req,res) {
   res.end();
 });
 
-app.get('/temi',function(req,res) {
-  res.render("temi.ejs");
+app.get('/scanzano',function(req,res) {
+  res.render("scanzano.ejs");
   res.end();
 });
 
