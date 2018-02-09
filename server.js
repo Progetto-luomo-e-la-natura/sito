@@ -12,10 +12,17 @@ app.get('/scanzano',function(req,res) {
   res.end();
 });
 
-app.get('/interviste',function(req,res) {
-  res.render("interviste.ejs");
+app.get('/temi',function(req,res) {
+  res.render("temi.ejs");
   res.end();
 });
+
+app.get('/chisiamo',function(req,res) {
+  res.render("chisiamo.ejs");
+  res.end();
+});
+
+
 let port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('Server avviato sulla porta '+port);
