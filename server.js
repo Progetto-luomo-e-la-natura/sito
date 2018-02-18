@@ -25,6 +25,10 @@ app.get('/chisiamo',function(req,res) {
   res.end();
 });
 
+app.get('/pertusillo',function(req,res) {
+  res.render("pertusillo.ejs");
+  res.end();
+});
 
 let port = process.env.PORT || 3000;
 app.listen(port, function () {
